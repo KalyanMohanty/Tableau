@@ -94,10 +94,8 @@ To calculate Year-over-Year (YoY) and Month-over-Month (MoM) growth in Tableau, 
 
 
 
-
-
 ```
-#
+
 ### QUESTION 2.
 ### Year-over-Year (YoY) Calculation
 
@@ -226,11 +224,8 @@ In Tableau, the **BUFFER** function creates a geographic buffer around a specifi
 
 
 
-
-
 ```
 
-#
 ### QUESTION 4.
 ### Syntax
 ```tableau
@@ -278,10 +273,7 @@ In Tableau, the **CONTAINS** function is a logical function that checks whether 
 
 
 
-
-
 ```
-#
 ### QUESTION 5.
 ### Syntax
 ```tableau
@@ -335,10 +327,7 @@ The CONTAINS function is straightforward but powerful, enabling text-based filte
 
 
 
-
-
 ```
-#
 ### QUESTION 6.
 Tableau provides a wide range of date functions that help manipulate and perform calculations with dates. Here’s a breakdown of the most commonly used **date functions** in Tableau, along with examples.
 
@@ -487,11 +476,7 @@ In Tableau, **FIRST** is a table calculation function that returns the relative 
 
 
 
-
-
 ```
-
-#
 ### QUESTION 7.
 ### Syntax
 ```tableau
@@ -549,11 +534,8 @@ The **FIRST** function is useful for working with row positions and offsets, esp
 
 
 
-
-
 ```
 
-#
 ### QUESTION 8.
 In Tableau, **LAST** is a table calculation function that returns the relative position of a row from the last row in a partition. This is particularly useful when you want to perform calculations or filtering based on the position of rows relative to the end of a data partition.
 
@@ -620,12 +602,8 @@ The **LAST** function is a powerful tool for working with the last row(s) in a d
 
 
 
-
-
 ```
 
-
-#
 ### QUESTION 9.
 Regular Expressions (often abbreviated as **Regex** or **RegExp**) are sequences of characters that define a search pattern. They are used to find, match, or manipulate strings based on specific patterns. In Tableau, regular expressions are powerful tools for pattern-matching and text extraction in fields like data cleaning, validation, and extraction.
 
@@ -752,12 +730,7 @@ Regular expressions in Tableau are versatile for data transformation, validation
 
 
 
-
-
 ```
-
-
-#
 ### QUESTION 10.
 The **PREVIOUS_VALUE** function in Tableau returns the last calculated value in a sequence, which makes it useful for running totals, cumulative calculations, or calculations where you need to maintain a value from one row to the next. **PREVIOUS_VALUE** can be used only in calculated fields and is particularly helpful for scenarios that involve carrying a value from one row to another within the same partition.
 
@@ -821,11 +794,7 @@ The **PREVIOUS_VALUE** function in Tableau is a unique table calculation that al
 
 
 
-
-
 ```
-
-#
 ### QUESTION 11.
 In Tableau, **NOW()** and **TODAY()** are date functions that retrieve the current date or datetime. Here’s a breakdown of how they work and the key differences:
 
@@ -890,11 +859,7 @@ If you used this function on November 1, 2024, the output would be `2024-11-01` 
 
 
 
-
-
 ```
-
-#
 ### QUESTION 12.
 In Tableau, the **ZN** function is used to handle null values in numeric fields by converting them to zero. This is particularly useful when performing calculations that might involve nulls, as it ensures that nulls are treated as zeros, preventing errors or unexpected results.
 
@@ -926,8 +891,6 @@ The `ZN` function is specifically designed for numeric fields. For other data ty
 
 #### comments:
 ```
-
-
 
 
 
